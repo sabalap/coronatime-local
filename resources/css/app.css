@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: "Inter", sans-serif;
+}
+.relative.success input {
+    border: 1px solid #249e2c;
+}
+.relative.success:first-of-type.lg > img {
+    display: block;
+    margin-top: 16px;
+}
+.relative.success:first-of-type > img {
+    display: block;
+    margin-top: 7px;
+}
+.relative.success > img {
+    display: block;
+    margin-top: 14px;
+}
+
+.relative.error input {
+    border: 1px solid #cc1e1e;
+}
+.relative.error > div {
+    display: flex;
+}
+@media (max-width: 600px) {
+    .relative.success:first-of-type > img {
+        display: block;
+        margin-top: 14px;
+    }
+}

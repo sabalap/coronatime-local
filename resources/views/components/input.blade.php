@@ -1,0 +1,2 @@
+@props(["name","placeholder"])
+<input class="border border-neutral-200 h-14 rounded-lg text-base font-normal text-zinc-500 outline-none pl-2" name="{{$name}}" id="{{$name}}" placeholder="{{$placeholder}}" {{$attributes(['value' => old($name)])}}>
